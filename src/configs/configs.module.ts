@@ -1,4 +1,7 @@
 import { Module } from '@nestjs/common';
+import { ConfigsController } from './configs.controller';
 
-@Module({})
+@Module({
+  controllers: [ConfigsController]
+})
 export class ConfigsModule {}
